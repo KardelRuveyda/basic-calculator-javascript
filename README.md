@@ -1,6 +1,6 @@
 # Calculator
 Basic Calculator with HTML/CSS/JAVASCRIPT
 
-Screenshot
+<strong>Screenshot</strong>
 
 <img src="style/resim.png">
