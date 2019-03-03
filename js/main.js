@@ -1,20 +1,20 @@
-function insert (num){
-    document.form.textview.value = document.form.textview.value+num;
+function insert(num) {
+    document.form.textview.value = document.form.textview.value + num;
 }
 
-function equal(){
+function equal() {
     var exp = document.form.textview.value;
-    if (exp){
+    if (exp) {
         document.form.textview.value = eval(exp);
     }
 }
 
-function clean () {
-    document.form.textview.value ="";
+function clean() {
+    document.form.textview.value = "";
 }
 
 
-function back () {
+function back() {
     var exp = document.form.textview.value;
-    document.form.textview.value = exp.substring(0,exp.length-1);
+    document.form.textview.value = exp.substring(0, exp.length - 1);
 }
